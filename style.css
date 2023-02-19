@@ -1,0 +1,18 @@
+/* Only for debugging purpose*/
+div { 
+    border: 3px solid red;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+
+.header, .main {
+    grid-column: 2/3;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+}
