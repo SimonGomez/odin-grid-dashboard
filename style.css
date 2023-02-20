@@ -159,6 +159,17 @@ button {
 }
 
 .project {
-    height: 150px;
+    height: 200px;
     background-color: white;
+    border-radius: 15px;
+    border-left: 5px solid orange;
+}
+
+.project p {
+    font-size: smaller;
+    padding-left: 15px;
+}
+
+.project h2 {
+    padding-left: 15px;
 }
