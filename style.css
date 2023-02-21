@@ -86,8 +86,10 @@ body {
     background-color: white;
 }
 .header_top {
+    padding-top: 10px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
 }
 
 .search {
@@ -100,6 +102,7 @@ body {
 }
 input {
     margin: 3px;
+    height: 30px;
     border-radius: 5px;
     border-width: 2px;
     border-color: lightgray;
@@ -108,7 +111,12 @@ input {
 
 .user_info_top {
     display: grid;
-    grid-template-columns: 1fr 1fr 5fr;
+    grid-template-columns: 1fr 1fr 3fr;
+    padding-right: 20px;
+}
+
+.user_info_top > p {
+    text-align: right;
 }
 
 .user_name {
@@ -123,8 +131,13 @@ input {
 
 .header_bottom_left {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
+    grid-template-columns: 1fr 4fr;
+}
+.hello {
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header_bottom_left p {
